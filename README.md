@@ -93,6 +93,7 @@ TG_USER_ID = ''  # 用户、群组或频道 ID，示例：129xxx206 ,
 git clone https://github.com/n0thing2speak/oracle_arm
 
 cd oracle_arm
+apt-get install libssl-dev libffi-dev python3-pip
 
 pip3 install -r requirements.txt
 ```
